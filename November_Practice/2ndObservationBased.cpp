@@ -5,7 +5,7 @@ public:
     int minMoves(vector<int>& nums) {
   //Return the minimum total number of moves required so that all elements in nums become equal.
   //logic is simple pick the largest element and cnt the total moves we required to make all the element equal to that element 
-    int n=nums.size();
+    int n=nums.size(); 
     int max_element=INT_MIN;
     int Total_moves=0;
     for(int i=0;i<n;i++){
